@@ -1,0 +1,92 @@
+/* General Styling */
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    font-family: 'Encode Sans Condensed', sans-serif;
+    }
+
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+/* Avatar */
+
+    .box-1 {
+        flex: 1;
+        padding-top: 20px; 
+    
+    }
+
+/* Profile Name */
+    .box-2 {
+        flex: 1;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+    .box-2 > h1 {
+        color: whitesmoke;
+    }
+
+/* Quicklinks */
+
+    .box-3 {
+        flex: 1;
+   
+    }
+
+/* Social Media Icons */
+    .box-4 {
+        flex: 1;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .fab {
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 10px -5px 10px -5px;
+        justify-content: center;
+    }
+    
+    .fab:hover { 
+        color: #525252;
+    }
+
+/* Text Box */
+.block {
+    border-style: solid 1px;
+    border: none;
+    border-radius: 40px;
+
+    background-color: whitesmoke;
+    color: #525252;
+
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;   
+}
+
+.block:hover {
+    
+    padding: 20px;
+    background-color: rgb(240, 240, 240, 0.20);
+    color: #313131;
+}
+
+a {
+    color: inherit;
+    padding: 20px;
+}
+
+
+
